@@ -1,3 +1,7 @@
+https://medium.com/machine-learning-in-practice/over-200-of-the-best-machine-learning-nlp-and-python-tutorials-2018-edition-dd8cf53cb7dc
+https://blog.algorithmia.com/introduction-natural-language-processing-nlp/
+
+
 openAI
 https://jobs.lever.co/openai/a0d3b158-14a0-48db-b38c-1c94bb18f69b/apply 
 
@@ -6,8 +10,9 @@ https://jobs.lever.co/openai/a0d3b158-14a0-48db-b38c-1c94bb18f69b/apply
 learn c++ 
 
 https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/
-https://www.geeksforgeeks.org/c-classes-and-objects/
+ 
 
+thread call in c++ 
 standford advanced 
 
 object overloading
@@ -16,8 +21,11 @@ object overloading
 
 
 
+
 Algorithm to do 
 ===============
+https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/#DP
+
 * KMP Algorithm
 * Prims 
 * Algorithm related to maximum matching
@@ -26,9 +34,12 @@ https://www.geeksforgeeks.org/elements-of-first-array-that-have-more-frequencies
 https://www.geeksforgeeks.org/greedy-algorithms-set-2-kruskals-minimum-spanning-tree-mst/
 https://www.geeksforgeeks.org/job-sequencing-using-disjoint-set-union/
 
+
+
  Bitmask in DP
  https://www.interviewbit.com/problems/shortest-common-superstring/
 
+https://www.hackerrank.com/interview/interview-preparation-kit
 
 Questions :
 ----------
@@ -49,6 +60,9 @@ two sorted array is given find the median of the sorted array in O(n+m ) time co
 
 machine learning 
 ----------------
+programming :
+	https://colab.research.google.com/notebooks/mlcc/intro_to_sparse_data_and_embeddings.ipynb?utm_source=mlcc&utm_campaign=colab-external&utm_medium=referral&utm_content=embeddings-colab&hl=en
+
 https://www.analyticsvidhya.com/blog/2018/06/comprehensive-data-science-machine-learning-interview-guide/
 https://medium.com/subhrajit-roy/cracking-the-machine-learning-interview-1d8c5bb752d8
 

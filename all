@@ -1,5 +1,0 @@
-
-##  creating 2d array
-vector< vector <lld> > count(c.size(),vector<lld>(n,0)) ;
-
-#define ll long long int ;

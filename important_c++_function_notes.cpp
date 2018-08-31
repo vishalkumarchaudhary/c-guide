@@ -3,9 +3,25 @@ stoi( ) ## string to integer
 
 vector<int> a(n); ## allocating n size vector int
 
+##  creating 2d array
+vector< vector <lld> > count(c.size(),vector<lld>(n,0)) ;
+
+#define ll long long int ;
 //  creating max heap / min heap respectively
 priority_queue <int> max_heap ;
-priority_queue<int , vector<int> ,greater<int>> min_heap ;
+
+priority_queue<int , vector<int> ,greater<int> > min_heap ; 
+// the above is like this
+priority_queue< className , vector<className> ,classNameOfOperator > min_heap ; 
+
+class classNameOfOperator(){
+public:
+	bool operator()(className a , className b){
+		//compare and return true or false; greater for minheap
+	}
+};
+
+max_heap.push() ; max_heap.pop() ; max_heap.pop();
 // ------------------------------------------------------------------------------------
  // example for arbitrary priority queue
 // User defined class, Point
@@ -154,3 +170,39 @@ LIBS += "/media/mabrin/myfiles/codes/build-mylib-Desktop-Debug/libmylib.a"
 HEADERS += \
     ../mylib/mylib.h
 */
+
+
+BitManipulation
+===============
+
+/*
+        x & (x-1) will clear the lowest set bit of x
+        x & ~(x-1) extracts the lowest set bit of x (all others are clear). Pretty patterns when applied to a linear sequence.
+        x & (x + (1 << n)) = x, with the run of set bits (possibly length 0) starting at bit n cleared.
+        x & ~(x + (1 << n)) = the run of set bits (possibly length 0) in x, starting at bit n.
+        x | (x + 1) = x with the lowest cleared bit set.
+        x | ~(x + 1) = extracts the lowest cleared bit of x (all others are set).
+        x | (x - (1 << n)) = x, with the run of cleared bits (possibly length 0) starting at bit n set.
+        x | ~(x - (1 << n)) = the lowest run of cleared bits (possibly length 0) in x, starting at bit n are the only clear bits.
+*/
+
+// array division using bit operation
+for (long long t = 0, i = 31; i >= 0; i--)
+  if (t + (m << i) <= n)
+    t += m << i, q |= 1LL << i;
+
+
+// function pointer 
+int (*f)(int ,int) = sub ;
+
+cout<<f(1,1000)<<endl ;
+
+// finding the if key exists in unordered_map
+unordered_map<int ,int> umap1 ; // takes order 1 for finding value
+umap1.find("key")== umap1.end() // =>> key not found 
+
+map<int,int> map1 ; //takes order O(log n ) for finding the values as the key are sorted in this map
+
+
+// substring in a string 
+str.substr(index , "length_of_sustring");
