@@ -1,0 +1,5 @@
+SELECT * FROM R as sx
+WHERE NOT EXISTS (
+(SELECT p.y FROM S as p )
+EXCEPT
+(SELECT sp.y FROM  R as sp WHERE sp.x = sx.x ) );

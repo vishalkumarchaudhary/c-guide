@@ -1,0 +1,45 @@
+UML concepts
+	https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-aggregation-vs-composition/
+
+		owners feed pets, pets please owners (association)
+		a tail is a part of both dogs and cats (aggregation / composition)
+		a cat is a kind of pet (inheritance / generalization)
+
+
+    	Aggregation implies a relationship where the child can exist independently of the parent. Example: Class (parent) and Student (child). Delete the Class and the Students still exist.
+
+    	Composition implies a relationship where the child cannot exist independent of the parent. Example: House (parent) and Room (child). Rooms don't exist separate to a House.
+
+    	super class is generalised class of specialised class ex : bank account <|- saving or current
+
+
+https://www.oodesign.com/design-principles.html
+
+Bad design 
+	Rigidity
+	Fragility
+	Immobility
+
+Open Close Principle :classes extension  not changing it
+
+Dependency Inversion Principle
+	tightly coupled is loosened
+
+Interface Segregation Principle
+
+Single Responsibility Principle
+
+Liskov's Substitution Principler
+
+
+creational pattern
+==================
+1) prototype pattern: fully initialised instance to be copied like initial setup of borad in chess when new object is needed 
+
+2) builder pattern : ?????
+
+3) singleton pattern : Only one instance is possible of a class 
+		private constructor , difficult for unit-test
+
+4) Factory pattern :			
+

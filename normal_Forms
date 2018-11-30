@@ -1,0 +1,21 @@
+1NF :
+	no multivalued attributes or a cell cannot have more than values
+2NF :
+	no partial dependency
+		non-prime attributes should not depend on part of candidate key
+3NF :
+	no trasitive dependecy
+		non-prime ->non-prime
+BCNF :
+	alpha -> beta 
+		beta : don't care
+		alpha: super key 
+			super key : any set of attribute whose subset is a candidate key
+example : R(A,B,C)
+	AB -> C 
+	C -> B
+		(AB) , (AC) are the candidate key
+		is in 3NF but not in BCNF because of 2nd dependency
+
+		
+

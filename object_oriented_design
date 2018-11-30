@@ -1,0 +1,13 @@
+abstraction :(handling the accessibility)
+
+polymorphism :polymorphism means ability to take more than one form. An operation may exhibit different behaviors in different instances. FUNCTION OVERLOADING AND OPERATOR OVERLOADING
+Polymorphism is extensively used in implementing inheritance
+
+encapsulation : data and function 
+
+Inheritance: inheritance is the process by which objects of one class acquire the properties of objects of another class
+
+Interfaces : enforcing the classes to implement certain functionalities.
+
+cohesion : how related responsibilities are together
+coupling : how modules are dependent on each other

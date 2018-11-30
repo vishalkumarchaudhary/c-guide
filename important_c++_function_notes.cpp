@@ -1,3 +1,9 @@
+
+File * file ;
+fread(&input, sizeof(struct person), 1, infile)
+fwrite(&input, sizeof(struct person), 1, infile)
+
+
 stoi( ) ## string to integer
 
 
@@ -10,9 +16,19 @@ vector< vector <lld> > count(c.size(),vector<lld>(n,0)) ;
 //  creating max heap / min heap respectively
 priority_queue <int> max_heap ;
 
-priority_queue<int , vector<int> ,greater<int> > min_heap ; 
+priority_queue<int , vector<int> ,greater<int>  > min_heap ; 
+min_heap.push()
+min_heap.pop()
+min_heap.top()
 // the above is like this
 priority_queue< className , vector<className> ,classNameOfOperator > min_heap ; 
+
+ make_heap(v1.begin(), v1.end());
+ v1.front();
+ push_heap(v1.begin(), v1.end());
+ pop_heap(v1.begin(), v1.end()); 
+
+
 
 class classNameOfOperator(){
 public:
@@ -108,7 +124,7 @@ kadane algorithm  (https://www.youtube.com/watch?v=ohHWQf1HDfU&feature=youtu.be)
    delete [] p ;
 
 */
-   using namespace std  # is used to remove the conflict of all variable ,function,constant with same name 
+   using namespace std  //is used to remove the conflict of all variable ,function,constant with same name 
    using namespace inside static libraries is not prefered because if that static library has included that namespace then 
    it will also be include into your current if you imported .
 
@@ -126,7 +142,7 @@ Cat(age):Animal(age){} # calling the Animal(age) constructor of Animal class
 // polymorphism is the ability to redefine the methods of the base class in the derived class by using virtual keyword 
 // virtual for all function and destructor for the base class for override 
 
-Animal *ptr = new Cat()   # pointing to derived class but if virtual is used then it overrides the other base class 
+Animal *ptr = new Cat()   // pointing to derived class but if virtual is used then it overrides the other base class 
 
 // ============================ operator overloading in the class ==========================================
 // example 1)
@@ -142,15 +158,15 @@ void operator ++()
 
 
 
-pond to remember 
+// pond to remember 
 <sstream>  stringstream
 Cat::Cat(string name):name(name),age(age){}
 
 reference variable
 int &value = value1 ;
 
-const int * ptr ;  *ptr cannot change
-int * const ptr ;  ptr =&int cannot be done 
+const int * ptr ; // *ptr cannot change
+int * const ptr ; //  ptr =&int cannot be done 
 
 copy constructor for one object to another 
 Animal animal1 =animal2  ;//constructor is not called 

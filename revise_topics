@@ -1,0 +1,32 @@
+transpose of matrix convert column to row
+references and pointers
+generalized form for using pointer with multidimensional arrays.*(*(a + i) + j) 			
+	https://www.geeksforgeeks.org/pointer-array-array-pointer/
+
+sql practice
+	https://www.w3resource.com/sql-exercises/
+
+object oriented concept espcially type of polymorphism
+
+manacher algorithm for O(n) finding palindrome substring
+
+Banker's algorithm ( resourse allocation to avoid deadlock)
+	https://www.youtube.com/watch?v=T0FXvTHcYi4
+
+https://www.geeksforgeeks.org/detect-and-remove-loop-in-a-linked-list/
+https://www.geeksforgeeks.org/find-the-maximum-of-minimums-for-every-window-size-in-a-given-array/
+https://www.geeksforgeeks.org/number-full-binary-trees-node-product-children/
+https://practice.geeksforgeeks.org/editorial.php?pid=3260
+https://www.geeksforgeeks.org/bottom-view-binary-tree/
+	level order traversal and map for horizontal value
+https://www.geeksforgeeks.org/range-query-largest-sum-contiguous-subarray/
+
+https://www.geeksforgeeks.org/longest-monotonically-increasing-subsequence-size-n-log-n/
+	patient sorting
+
+Normal form
+
+not done :
+http:// http://www.geeksforgeeks.org/combinatorial-game-theory-set-4-sprague-grundy-theorem/
+https://practice.geeksforgeeks.org/problems/range-queries-for-longest-correct-bracket-subsequence/0/?track=Placement
+https://practice.geeksforgeeks.org/problems/populate-inorder-successor-for-all-nodes/1/?track=Placement
